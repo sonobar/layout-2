@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+<title> Layout 2 </title>
+    <style>
+        *{margin: 0px; padding: 0px}
+    .header{
+        min-height:100px;
+        background-color: lightskyblue; 
+        border: 1px solid black;
+        overflow: hidden}
+
+.header_wrapper {  min-height: 100px;
+                   background-color:papayawhip;
+                    border: 1px solid black;
+                  width: 90%;
+                margin: 0px auto;}
+
+.logo {         min-height: 50px;
+                border: 1px solid black;
+                width: 20%;
+                margin:25px 5%;
+                float: left; 
+                background-color: aliceblue;}
+
+.menu {         min-height: 70px;
+                border:1px solid black;
+                width:48%;
+                margin: 15px 10%;
+                float: right;
+                background-color: aliceblue;}
+
+.content {
+    min-height: 450px;
+    background-color: lightcyan;
+                border: 1px solid blue;
+                box-sizing: border-box;
+                overflow: hidden;}
+
+.sidebar_left {min-height: 450px;
+                border:1px solid black ; 
+                width: 20%;
+                float: left;
+        box-sizing: border-box;
+        background-color: lightpink;}
+
+.sidebar_left_up {min-height: 170px; 
+    background-color: antiquewhite;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width:90%;
+                margin: 5px 5%;}
+
+.sidebar_left_down {min-height: 260px;
+    background-color: antiquewhite;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width:90%;
+                margin: 5px 5%;}
+
+.main_content { min-height: 450px; 
+    background-color: lightpink;
+                border:1px solid black;
+                box-sizing: border-box;
+                width: 40%;
+                float: left;}
+
+.main_content_up {min-height: 300px;
+    background-color: aquamarine;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width:95%;
+                margin: 5px auto;}
+
+.main_content_down { min-height: 130px;
+    background-color: aquamarine;
+                border:1px solid black;
+                box-sizing: border-box;
+                width: 95%;
+                margin: 5px auto;}
+
+.sidebar_right { min-height: 500px;
+    background-color: lightpink;
+                border:1px solid black ;
+                box-sizing: border-box;
+                width:40%;
+    float: left;}
+
+.sidebar_right_up_wrapper {min-height: 400px;
+    background-color: lavenderblush;
+                border:1px solid black;
+                box-sizing:border-box;
+                width: 96%;}
+
+.sidebar_right_up_left { min-height: 300px;
+                background-color: lemonchiffon;
+                border:1px solid black;
+                box-sizing: border-box;
+                width:65% ;
+                margin:0px auto;
+                float: left;}
+
+.sidebar_right_up_left_upper {  min-height: 250px;
+                background-color: lightgray;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width: 90%;
+                margin:5px 3%;}
+
+.sidebar_right_up_left_lower {min-height: 108px;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width: 90%;
+                margin:0px 3%;padding: 0px auto;
+                margin-top: 5px;background-color: lightgray;}
+
+.sidebar_right_up_right {min-height: 365px;
+    background-color: darkturquoise;
+                border:1px solid black;
+                box-sizing: border-box;
+                width:28% ;
+                margin:0px 0%;
+                float: right;
+                margin-top: 5px;
+                margin-right: 2%;}
+
+.sidebar_right_lower { min-height: 65px;
+                border:1px solid red;
+                box-sizing: border-box;
+                width:90% ;
+                margin:5px 2%;
+        background-color: blueviolet;}
+
+.footer {min-height: 90px;
+    background-color: lightskyblue;
+                border: 1px solid black;
+                box-sizing: border-box;}
+
+.copyright {min-height: 40px;
+    background-color: azure;
+                border: 1px solid black;
+                box-sizing: border-box;
+                width:40%;
+                margin: 25px auto;}
+    </style>
+    
+</head>
+<body>   
+<div class="header">
+           <div class="header_wrapper">
+           <div class="logo">
+               <p><b>logo</b></p>
+               </div>
+               <div class="menu">
+               <p>menu bar</p></div>
+           </div>
+        </div>
+        <div class="content">
+            <p> Content </p>
+            <div class="sidebar_left">
+                <p>Sidebar left</p>
+                <div class="sidebar_left_up">
+                <p> sidebar left up</p></div>
+                <div class="sidebar_left_down">
+                <p>sidebar left down </p></div>
+            </div>
+            <div class="main_content">
+                <p>main content</p>
+                <div class="main_content_up">
+                <p>main content up </p></div>
+                <div class="main_content_down">
+                <p>main content down </p></div>
+            </div>
+            <div class="sidebar_right">
+                <p>sidebar right </p>
+              <div class="sidebar_right_up_wrapper">
+                  <p>sidebar right up</p>
+                  <div class="sidebar_right_up_left"><p>sidebar right up left</p>
+                     <div class="sidebar_right_up_left_upper"><p>sidebar right up left upper </p></div>
+                      <div class="sidebar_right_up_left_lower">
+                      <p>sidebar right up left lower</p></div>
+                  </div>
+                  <div class="sidebar_right_up_right">
+                  <p>sidebar right up right </p></div>
+                </div>
+                <div class="sidebar_right_lower">
+                <p>sidebar right lower</p></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+            <p><b>&copy; copyright</b></p>
+</div>
+        </div>
+
+</body>
+</html>
